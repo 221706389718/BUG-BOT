@@ -1,0 +1,196 @@
+
+
+{
+  "name":"BWM-XMD",
+  "description":"Best whatsapp bot developed by Ibrahim adams",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://files.catbox.moe/h2ydge.jpg",
+  "repository":"https://github.com/ekitale/maths-project",
+  "succes_url":"/",
+  "stack":"heroku-24",
+  "env":{
+    "PREFIX":
+    {
+      "description":"choose your prefix for your bot",
+      "value":".",
+      "required":true
+    },
+"AUTO_REACT":
+    {
+      "description":"Enter yes for your bot to auto react",
+      "value":"no",
+      "required":false
+    },
+"MENUTYPE":
+    {
+      "description":"Enter 1 for Christmas menu, Enter 2 for normal menu, leave blank for random display ",
+      "value":"1",
+      "required":false
+    },
+"AUDIO_REPLY":
+    {
+      "description":"Enter yes for your bot to audio reply",
+      "value":"no",
+      "required":false
+    },
+"AUTO_SAVE_CONTACTS":
+    {
+      "description":"Enter yes for your bot to auto save numbers",
+      "value":"no",
+      "required":false
+    },
+"AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto react status",
+      "value":"yes",
+      "required":false
+    },
+"ANTICALL":
+    {
+      "description":"Enter yes for your bot to auto reject calls",
+      "value":"no",
+      "required":false
+    },
+"AUTO_REPLY":
+    {
+      "description":"Enter yes for your bot to auto reply message when offline",
+      "value":"no",
+      "required":false
+    },
+"AUTO_BIO":
+    {
+      "description":"Enter yes for your bot to auto bio or no to decline",
+      "value":"yes",
+      "required":false
+    },
+
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your status will be reading automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"You status will be sending status to your inbox automatically (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    },
+    "AUTO_READ":
+    {
+      "description":"Your contact  will be reading messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"no",
+      "required":false   
+      },
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"BWM-XMD",
+      "required":false
+
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://files.catbox.moe/h2ydge.jpg",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"yes",
+      "required":false
+    }
+	,
+    "HEROKU_API_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :false
+    },
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :false
+    }  
+	  ,
+    "NUMERO_OWNER":
+    {
+      
+    "description":"221706389718",   
+      "value":"",
+    "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Owner name",
+    "required": false,
+    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+  },
+    "SESSION_ID":{
+    "description":"BWM-XMD;;;H4sIAAAAAAAAA5VU246qSBT9l3rVPnJRQJNOBpBGBRTB+2QyKaCEkqtFAdId/31C2yfdD3PO9LxV6rL2qrXW3m8gy3GJDNSCyRsoCK4hRd2StgUCE6BU5zMioA8CSCGYAM3e5lErnJxigTLm0FKosEPdz2fLuU73jpBaaYoz090k8jO490FReQn2fwNoGLZnb1Csx/xrvdgtqeJYuPWzi6L3CFR43sHBNbXSAZaewb1DhJjgLNSKCKWIwMRArQ0x+R59ZL0GbhMn64jqaLiFpOcvem6WO9ZUPE5naW/O5mi/sF0m/h59mgft3tyP9cImgTwm/IsUJE6ycmU2iGRijES7CPYuJTh/0C9xmKFgHqCMYtp+X3fNj526GOtRsWJxzem3i2sfF+vrrF4JzmAZ8T3lZbY163j7PeIl4i1/ZinLzUazLuNqxAySM+PT26UwM623nNOZoSDH6N20r8Rt8jMr8f/RXTWT3WhzWe29BSMND3u1btudpUbjBXNq7cNocCXxBfUOU234PfrjDet7jX5DvMkGWTCCatlqalqkZ6Pt8bro413YzHux2/if9CGtyO9YxlqAcMkvWtfepUON5bdmkgz2soy8Wtlq1dx7EeKo8blmdjaOxdaXzFKyx4NyrciNNBvx18UiNaUlr1etV5v7xAn9cP38/qMYtfMATNh7HxAU4pISSHGedXscO+oDGNQu8gmi7/ICp1GbbLQlw6NzoNb5OrabVGLztXoYvDJyyK+kojnU7rFCzTPog4LkPipLFMxwSXPSWqgsYYhKMPnzrz7I0I0+jOvK8WwfnDEp6TariiSHwU9Xfx5C38+rjLpt5qvdAhEwYT63EaU4C8tOxyqDxI9wjdQI0hJMzjAp0b0PAlRjH3V44Pq3rx8sXDtTzB0qg1V2q9tr01GO8uxxxQ8C7yzB4IkLhsHTkOH4J8jx/hOSOIGFI08QIQf6AH/0TPfmlxYW6/n0IEfRpp03kdvWfKg6zsqsB6X0bsNDe0RQACaUVKgPPOjHVbHJY5T9Ble6zaNL4Q4MmqhZrdFpKZyd9Gp71vAL7sNTMHn7nFNqHnR4Y/tonYSTCvogfY8g7n7OcazICLw0FllpMvyj/NF0OsKi+JEh2sF+aN49CBCFOCm7ZlqI3Mgsp9pKTDKx1HVZC2U1lMGnRz/D/ghTaMjw6M/xYr8XR855po/nnkdbQnaDXCuXTaWHUS2utXhzfP4XkM6iymI2TSiqp3xJli830/UUrDelogyhbg+k7dDNe7Uj77xdD27qi6CWg1ejsKYvLWby8GiH1ewCbzpjwmbJjwdLszdT5eeu2iMrX4sx+5tVme6uzYXtOtnrPp8ZcVSRkz502P0lUa5WKhb1zsxrP/Cm4saRghOGrPOyfG3MUWYYWmmNT9Y4U5zrnpOGC2xdwkcbvo+B5GP84vcGeftI1hmj92mWwc6h//Dma8aZe/8LxMd4/EWOlKMa6ulMneNdUvW2h9utdnVO9K8CexYUc+qbUT73eoyy0Dhwv//VB0UC6TknKZgAmAUkxwHogwSWVP5s0w1OUUlhWoAJK/JDSRgJAnP/BzFFF23cBwAA",   
+      "value":"",
+     "required":true
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "3"
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "if you don't want startting-bot-message put no else put yes",
+    "required": true,
+    "value": "yes"
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"",
+    "required": false
+  },
+  "ANTIDELETE2" : {
+    "description": "if you want to enable anti delete in conversation put yes else put no",
+    "value": "no",
+        "required": false
+ },
+  "ANTIDELETE1" : {
+    "description": "if you want to enable anti delete messages to be sent to your inbox put yes else put no",
+    "value": "no",
+        "required": false
+  }
+  },
+
+        
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+
+  "formation": {
+                "worker": {
+                        "quantity": 1,
+                        "size": "basic"
+                }
+        },
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
